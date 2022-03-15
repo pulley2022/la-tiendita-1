@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "sass sass:src/css --watch"
+    "compile:sass": "sass scss:src/css --watch"
   },
   "keywords": [
     "Bootstrap-5",
@@ -22,6 +22,6 @@
     "postcss-cli": "^9.1.0"
   },
   "devDependencies": {
-    "dart-sass": "^1.25.0"
+    "sass": "^1.49.9"
   }
 }
