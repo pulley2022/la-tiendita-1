@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "sass scss:src/css --watch"
+    "compile:sass": "sass src/scss:src/css --watch"
   },
   "keywords": [
     "Bootstrap-5",
