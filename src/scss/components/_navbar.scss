@@ -1,5 +1,11 @@
 @use '../custom' as *;
-
+  
 nav {
   background-color: $primary-400;
+
+  li {
+    font-size: 1.10em;
+  }
 }
+
+// Want to Add Hover Animations Under Links On Hover
