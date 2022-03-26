@@ -3840,7 +3840,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #198754;
+  color: #fff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3850,7 +3850,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #146c43;
+  color: #ffda6a;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -11120,6 +11120,28 @@ textarea.form-control-lg {
 }
 nav {
   background-color: #479f76;
+}
+nav li {
+  font-size: 1.1em;
+}
+
+.item-1 h2.card-header {
+  background-color: #dc3545;
+  color: #e9ecef;
+}
+
+.item-2 h2.card-header {
+  background-color: #dc3545;
+  color: #e9ecef;
+}
+
+.item-3 h2.card-header {
+  background-color: #dc3545;
+  color: #e9ecef;
+}
+
+#hero {
+  border-bottom: 1px solid #479f76;
 }
 
 #footer {

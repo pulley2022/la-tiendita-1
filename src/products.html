@@ -11,23 +11,26 @@
 
 <body>
   <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm">
-      <div class="container">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-md fixed-top shadow">
+      <div class="container rounded-3 py-2">
+        <a class="navbar-brand text-white ps-5" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0 container-fluid d-flex justify-content-end ">
-            <li class="nav-item me-4">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          <ul class="navbar-nav me-auto py-1 mb-2 mb-md-0 container-fluid d-flex justify-content-end fw-lighter fst-normal">
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
-            <li class="nav-item me-4">
-              <a class="nav-link active" href="./products.html">Products</a>
+            <li class="nav-item me-5 ms-4">
+              <a class="nav-link" href="./products.html">Products</a>
             </li>
-            <li class="nav-item me-4">
+            <li class="nav-item me-5 ms-4">
               <a class="nav-link" href="./faq.html">FAQs</a>
+            </li>
+            <li class="nav-item me-5 ms-4">
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
@@ -35,11 +38,19 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="py-5 text-center container">
+    <section class="py-5 my-5 text-center container" id="hero">
       <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">La Tiendita</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <div class="col-lg-6 col-md-8 mx-auto mt-5 mb-3">
+          <h1 class="text-secondary fw-bold display-4">Our Products</h1>
+          <p class="lead fs-3 py-2 mt-3 mb-1 text-center">These are some of our bestsellers. Check our full product catalog as well.</p>
+          <div class="d-flex justify-content-center container mx-auto mt-5">
+            <button class="btn btn-outline-primary mx-3 py-2 px-5 shadow btn-lg">
+              Full Catalog
+            </button>
+            <button class="btn btn-outline-secondary mx-3 py-2 px-5 shadow btn-lg">
+              Full Catalog
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -47,15 +58,15 @@
 
   <main>
     <!-- Card Grid Container -->
-    <div class="album py-5 bg-light">
+    <section class="py-5" id="bestsellers">
       <div class="container">
         <!-- Start Card Grid -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-1">
               <img class="card-img-top" src="../assets/images/a1.jpg" alt="image-1">
-              <p class="card-header text-center">Some Item</p>
+              <h2 class="card-header text-center fs-5">Some Item</h2>
               <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
@@ -64,98 +75,98 @@
 
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-2">
              <img class="card-img-top" src="../assets/images/a2.jpg" alt="image-2">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+             </div>
             </div>
           </div>
 
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-3">
              <img class="card-img-top" src="../assets/images/a3.jpg" alt="image-3">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+             </div>
             </div>
           </div>
   
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-1">
              <img class="card-img-top" src="../assets/images/a4.jpg" alt="image-4">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+             </div>
             </div>
           </div>
 
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-2">
              <img class="card-img-top" src="../assets/images/a2.jpg" alt="image-2">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+             </div>
             </div>
           </div>
 
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-3">
              <img class="card-img-top" src="../assets/images/a3.jpg" alt="image-3">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+             </div>
             </div>
           </div>
 
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-1">
              <img class="card-img-top" src="../assets/images/a2.jpg" alt="image-1">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+             </div>
             </div>
           </div>
 
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-2">
              <img class="card-img-top" src="../assets/images/a2.jpg" alt="image-2">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5 fst-normal fw-normal">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+            </div>
             </div>
           </div>
 
           <!-- Card -->
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg item-3">
              <img class="card-img-top" src="../assets/images/a4.jpg" alt="image-4">
-             <p class="card-header text-center">Some Item</p>
-              <div class="card-body py-lg-4">
+             <h2 class="card-header text-center fs-5">Some Item</h2>
+             <div class="card-body py-lg-4">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
+             </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   
   </main>
 
-  <div class="container-fluid">
+  <section class="container-fluid" id="footer" >
     <footer class="py-5 container">
       <div class="row">
         <div class="col-2">
@@ -225,7 +236,7 @@
         </ul>
       </div>
     </footer>
-  </div>
+  </section>
 
 
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
