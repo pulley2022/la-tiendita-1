@@ -1,0 +1,13 @@
+@use '../../custom' as *;
+
+#about-us {
+  background-color: $primary-100;
+}
+
+#about-us h2 {
+  color: $secondary;
+}
+
+#about-us p {
+  font-size: 1.75rem;
+}

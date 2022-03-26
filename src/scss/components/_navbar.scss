@@ -1,1 +1,5 @@
-@use '../custom';
+@use '../custom' as *;
+
+nav {
+  background-color: $primary-400;
+}

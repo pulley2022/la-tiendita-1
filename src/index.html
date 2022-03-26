@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/pages/home/styling-home.css">
   <link rel="icon" href="../assets/images/favicon-la-tiendita-2.png">
-  <title>La Tiendita &copy; | 100% Autentico. </title>
+  <title>100% Autentico | La Tiendita &copy;</title>
 </head>
 <body>
   
   <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <a class="navbar-brand text-light" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,6 +29,9 @@
             <li class="nav-item me-4">
               <a class="nav-link" href="./faq.html">FAQs</a>
             </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -38,8 +41,8 @@
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">La Tiendita</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+          <h1 class="text-secondary fw-bold display-4">La Tiendita</h1>
+          <p class="lead fs-3 py-2 mt-3 mb-1 text-center border">Lorem, ipsum dolor. Lorem, ipsum dolor.</p>
         </div>
       </div>
     </section>
@@ -47,26 +50,26 @@
 
   <main>
     <!-- About Us Section -->
-    <div class="container-fluid bg-light">
+    <section class="container-fluid" id="about-us">
       <div class="container">
         <div class="row text-dark py-5">
           <div class="col me-3 px-2">
-            <h2 class="display-5">About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum corrupti, quibusdam blanditiis ad consequuntur iste consequatur architecto provident eius natus possimus ut adipisci, sit aliquid laudantium accusamus corporis. Deleniti ipsum architecto reiciendis odio, earum nostrum accusantium molestias, eum neque perspiciatis veritatis debitis odit quas iure impedit porro ex vitae quidem!</p>
+            <h2 class="display-5 fw-normal fst-normal">About Us</h2>
+            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum corrupti, quibusdam blanditiis ad consequuntur iste consequatur architecto provident eius natus possimus ut adipisci, sit aliquid laudantium accusamus corporis. Deleniti ipsum architecto reiciendis odio, earum nostrum accusantium molestias, eum neque perspiciatis veritatis debitis odit quas iure impedit porro ex vitae quidem!</p>
           </div>
           <div class="col ms-3 p-5">
             <p class="display-5">Image</p>
           </div>
         </div>
       </div>
-    </div>
-
+    </section>
 
     <!-- Features Section -->
     <!-- Feature 1 -->
-    <div class="container px-2 py-5 my-5 border">
-      <h2 class="text-center display-4 my-3 py-5 border ">Why Shop With Us?</h2>
-      <div class="row g-5 py-5 row-cols-2 row-cols-lg-3">
+    <section class="container border my-5" id="features">
+      <h2 class="fw-bolder text-secondary text-center display-4 py-5 my-3">Why Shop With Us?</h2>
+      <!-- Features Container -->
+      <div class="row g-4 mt-1 mb-3 py-5 row-cols-2 row-cols-lg-3">
         <div class="col d-flex align-items-start">
           <!-- Icon Insert Here -->
           <div>
@@ -109,11 +112,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
 
   <!-- Footer -->
-  <div class="container-fluid bg-dark text-white">
+  <section class="container-fluid text-white" id="footer">
      <!-- Footer Nav Links -->
     <footer class="py-5 container">
       <div class="row">
@@ -152,7 +155,7 @@
   
         <div class="col-4">
           <h2 id="map">
-            <iframe class="shadow-lg border border-dark rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.1272847756563!2d-87.32115638471505!3d36.623322679985435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886526df77ca05e3%3A0x794cbdb60444b34a!2s3862%20Trenton%20Rd%2C%20Clarksville%2C%20TN%2037040!5e0!3m2!1sen!2sus!4v1646963226761!5m2!1sen!2sus" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="shadow-lg border border-dark rounded offset-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.1272847756563!2d-87.32115638471505!3d36.623322679985435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886526df77ca05e3%3A0x794cbdb60444b34a!2s3862%20Trenton%20Rd%2C%20Clarksville%2C%20TN%2037040!5e0!3m2!1sen!2sus!4v1646963226761!5m2!1sen!2sus" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </h2>
         </div>
       </div>
@@ -185,7 +188,7 @@
         </ul>
       </div>
     </footer>
-  </div>
+  </section>
 
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
